@@ -3,6 +3,8 @@
 public class FPSController : MonoBehaviour
 {
     /*
+    Moving Player and Camera.
+    
     > Player <3D Objects>
         > PlayerPOV <Camera>
     

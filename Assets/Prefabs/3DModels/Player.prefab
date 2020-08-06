@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8905561400695218529}
   - component: {fileID: 8905561400695218528}
   - component: {fileID: 8905561400695218559}
-  - component: {fileID: 8905561400695218558}
   - component: {fileID: 8905561400695218557}
   m_Layer: 0
   m_Name: Player
@@ -96,34 +95,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8905561400695218558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8905561400695218555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65b08d92bb9426b44b04ee33bc3b892b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterController: {fileID: 8905561400695218557}
-  cam: {fileID: 8905561402139062726}
-  XSensitivity: 1
-  YSensitivity: 3
-  invertPitch: 0
-  clamp: 0
-  minY: 0
-  maxY: 0
-  grounded: 0
-  jumping: 1
-  forwardSpeed: 1
-  horizontalSpeed: 1
-  jumpPower: 1
-  gravity: 2
-  jumpSpeed: 0
-  verticalRotation: 0
 --- !u!143 &8905561400695218557
 CharacterController:
   m_ObjectHideFlags: 0
