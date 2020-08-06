@@ -4,7 +4,13 @@ A changelog is not a commit history
 
 ## [Unreleased]
 
-## [0.0.0.1]
+## [0.0.0.1] - 2020-08-05
+### Added
+- Camera Movement + rotation script
+- a capsule as player body
+
+### Removed
+- Earlier Testing Scripts and test cube
 
 ## [0.0.0.0] - 2020-08-03
 ### Added
