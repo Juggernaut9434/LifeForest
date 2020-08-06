@@ -3,19 +3,25 @@ By: Michael Mathews, created 2020 | last updated
 A Unity Based Game 3D portraying different aspects of life
 
 ## TODO
-- Create a Plot for the Game
+- _SOLVED:_ Create a Plot for the Game
+	- story of my life with images and voice over.
 - See how you can incorporate future aspirations and past experiences
 - Make it easy to expand for maintenance
 - Design Level 1 Environment
 - _SOLVED:_ Figure out Character/movement dynamic and Movement
 	- Scripts in C#, will figure out more. 
 	- CameraController.cs
-- Deisgn Coin / Puzzle Piece (Store || self-made)
+- _SOLVED:_ Deisgn Coin / Puzzle Piece (Store || self-made)
+	- prefab/premade/coin
 - Design Clouds (Store || self-made)
-- Have a Light Hearted Color Scheme && Sound Track
-- Have alternative Dark Scheme && Sound Track
-- Design Scattering of Particles when exiting Reality Box ( planes? )
 
+- Design Scattering of Particles when exiting Reality Box ( planes? )
+- Design Level 2 Emvironment
+- Design Sounds
+	- Have a Light Hearted Color Scheme && Sound Track
+	- Have alternative Dark Scheme && Sound Track
+	- Voice Over for each level
+	- Coin.Destroyed Sound Effect
 
 
 ## Plot
