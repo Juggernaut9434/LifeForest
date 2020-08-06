@@ -6,7 +6,7 @@ A changelog is not a commit history
 
 ## [0.0.0.1] - 2020-08-05
 ### Added
-- Camera Movement + rotation script
+- Camera Movement + rotation script in Basics
 - a capsule as player body
 
 ### Removed
