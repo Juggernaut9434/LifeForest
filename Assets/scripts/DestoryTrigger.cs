@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DestoryWhenTouched : MonoBehaviour
+public class DestoryTrigger : MonoBehaviour
 {
     /*
     Destory's game object when collided.
