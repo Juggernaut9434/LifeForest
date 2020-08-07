@@ -5,12 +5,13 @@ A changelog is not a git commit history
 
 ## [Unreleased]
 
-## [0.0.0.1] - 2020-08-05
+## [0.0.1.0] - 2020-08-07
 ### Added
 - Camera Movement + rotation script
 - a capsule as player body
 - coin with animation and disappear when player collides with it
 - Level 1 Environment Designed with trees, bushes, etc.
+- Pause Menu with canvas, animations and UI Scripting
 
 ### Removed
 - Earlier Testing Scripts and test cube
