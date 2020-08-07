@@ -33,6 +33,9 @@ public class FPSController : MonoBehaviour
      [HideInInspector] public float jumpSpeed, verticalRotation;
  
      void Update() {
+         // While Game is Paused, Don't move POV
+         if(UIManager.GameIsPaused) return;
+
          float mouseX = Input.GetAxis("Mouse X"), mouseY = Input.GetAxis("Mouse Y");
  
          if (!invertPitch)
@@ -44,7 +47,8 @@ public class FPSController : MonoBehaviour
          transform.Rotate(0, mouseX * XSensitivity, 0);
          cam.transform.localRotation = Quaternion.Euler(verticalRotation, 0, 0);
  
-         if (Input.GetMouseButtonDown(0))
+        // Hide the Mouse when playing and not when game is paused
+         if (Input.GetMouseButtonDown(0) && !UIManager.GameIsPaused)
              Cursor.lockState = CursorLockMode.Locked;
  
          float horizontal = Input.GetAxis("Horizontal"), forward = Input.GetAxis("Vertical");
