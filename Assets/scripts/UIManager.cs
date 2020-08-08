@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -9,12 +10,14 @@ public class UIManager : MonoBehaviour
     connecting UI buttons to Scripts as well
     */
     public static bool GameIsPaused = false;
+    public bool MenuUI = false;
 
     public GameObject PauseMenuUI;
 
     void Start()
     {
-        PauseMenuUI.SetActive(false);
+        if(!MenuUI)
+            PauseMenuUI.SetActive(false);
     }
 
     void Update() 
@@ -48,12 +51,22 @@ public class UIManager : MonoBehaviour
         // FPSController Hides the Cursor. this unhides it
         Cursor.lockState = CursorLockMode.None;
     }
+
+    public void PlayGame()
+    {
+        Debug.Log("Loading Game...");
+        GameIsPaused = false;
+        SceneManager.LoadScene("Level-1");
+        
+    }
     
     public void LoadMenu()
     {
         //On Menu, change time to normal
         Time.timeScale = 1f;
+        GameIsPaused = false;
         Debug.Log("Loading Menu...");
+        SceneManager.LoadScene("Menu");
     }
     
     public void QuitGame()
@@ -61,4 +74,14 @@ public class UIManager : MonoBehaviour
         Debug.Log("Quitting Game...");
         Application.Quit();
     }
+
+    public void Restart()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+    }
+
+    //private void switchScene(Object sceneToLoad)
+    //{
+    //    SceneManager.LoadScene(sceneToLoad.name);
+    //}
 }
