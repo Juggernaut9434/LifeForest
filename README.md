@@ -16,7 +16,8 @@ A Unity Based Game 3D portraying different aspects of life
 - _SOLVED:_ Deisgn Coin / Puzzle Piece (Store || self-made)
 	- prefab/premade/coin
 	- CoinMovement.cs script to rotate and float up and down
-- Design Clouds (Store || self-made)
+- _SOLVED: _ Design Clouds (Store || self-made)
+	- Store (free) went with low Poly to stick with theme.
 
 - Design Scattering of Particles when exiting Reality Box ( planes? )
 - Design Level 2 Environment
