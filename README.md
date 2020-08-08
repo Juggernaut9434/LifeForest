@@ -1,5 +1,6 @@
 # LifeForest
 By: Michael Mathews, created 2020 | last updated
+
 A Unity Based Game 3D portraying different aspects of life
 
 ## TODO
@@ -10,9 +11,11 @@ A Unity Based Game 3D portraying different aspects of life
 - _SOLVED:_ Design Level 1 Environment
 - _SOLVED:_ Figure out Character/movement dynamic and Movement
 	- Scripts in C#, will figure out more. 
-	- CameraController.cs
+	- CameraController.cs [deprecated]
+	- FPSController.cs
 - _SOLVED:_ Deisgn Coin / Puzzle Piece (Store || self-made)
 	- prefab/premade/coin
+	- CoinMovement.cs script to rotate and float up and down
 - Design Clouds (Store || self-made)
 
 - Design Scattering of Particles when exiting Reality Box ( planes? )
