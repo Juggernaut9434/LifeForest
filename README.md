@@ -7,7 +7,7 @@ A Unity Based Game 3D portraying different aspects of life
 	- story of my life with images and voice over.
 - See how you can incorporate future aspirations and past experiences
 - Make it easy to expand for maintenance
-- Design Level 1 Environment
+- _SOLVED:_ Design Level 1 Environment
 - _SOLVED:_ Figure out Character/movement dynamic and Movement
 	- Scripts in C#, will figure out more. 
 	- CameraController.cs
@@ -16,7 +16,7 @@ A Unity Based Game 3D portraying different aspects of life
 - Design Clouds (Store || self-made)
 
 - Design Scattering of Particles when exiting Reality Box ( planes? )
-- Design Level 2 Emvironment
+- Design Level 2 Environment
 - Design Sounds
 	- Have a Light Hearted Color Scheme && Sound Track
 	- Have alternative Dark Scheme && Sound Track
