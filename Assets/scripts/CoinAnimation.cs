@@ -22,14 +22,15 @@ public class CoinAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Rotate the coin. //x,y,z
         // only when game is not paused
         if(!UIManager.GameIsPaused)
+        {
+            // Rotate the coin. //x,y,z
             transform.Rotate(0,0, SpinSpeed);
         
-        // Bounce up and down
-        tempPos.y += Mathf.Sin(Time.deltaTime * Mathf.PI * frequency) * amplitude;
-
+            // Bounce up and down
+            tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
+        }
         transform.position = tempPos;
         
     }

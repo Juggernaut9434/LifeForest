@@ -18,7 +18,6 @@ A Unity Based Game 3D portraying different aspects of life
 	- CoinMovement.cs script to rotate and float up and down
 - _SOLVED: _ Design Clouds (Store || self-made)
 	- Store (free) went with low Poly to stick with theme.
-
 - Design Scattering of Particles when exiting Reality Box ( planes? )
 - Design Level 2 Environment
 - Design Sounds

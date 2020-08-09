@@ -7,7 +7,6 @@
 	- Door Appear
 	- Door open
 	- Walk Through Door / New Level
-- Level 2 Design
 
 ### 2020-08-08
 - Design Clouds / Manipulate Spheres and Cubes
@@ -16,3 +15,8 @@
 
 ### 2020-08-10
 - Start Desiging Level 2 Environment
+- Start Adding Audio Clips for Level 1
+- Start Adding 2D Images for Level 1
+
+### 2020-08-13
+- 
