@@ -77,7 +77,11 @@ public class UIManager : MonoBehaviour
 
     public void Restart()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        // deprecated
+        // Application.LoadLevel(Application.loadedLevel);
+
     }
 
     //private void switchScene(Object sceneToLoad)
