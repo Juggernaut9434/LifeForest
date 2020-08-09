@@ -5,8 +5,8 @@ A changelog is not a git commit history
 
 ## [Unreleased]
 A header for anything not in a release yet. eventually moved into a release version number + date
-- 
-- 
+- Level-1 Edge of Map Barrier made with cubes with no mesh render and box collider
+- Imported Cloud Assets | Low Poly to stick with theme
 
 ## [0.0.1.0] - 2020-08-07
 ### Added
