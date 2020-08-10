@@ -25,6 +25,10 @@ A Unity Based Game 3D portraying different aspects of life
 	- Have alternative Dark Scheme && Sound Track
 	- Voice Over for each level
 	- Coin.Destroyed Sound Effect
+- Connect Scenes
+	- _SOLVED:_ Menu to Level 1
+	- 1 -> 2
+	- ?? 2 -> 2 Left, Center, Right ?? 
 
 
 ## Plot

@@ -17,6 +17,7 @@
 - Start Desiging Level 2 Environment
 - Start Adding Audio Clips for Level 1
 - Start Adding 2D Images for Level 1
+- Add Connection between Level 1 and Level 2
 
 ### 2020-08-13
 - 
