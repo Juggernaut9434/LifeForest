@@ -9,15 +9,23 @@ public class UIManager : MonoBehaviour
     Since GameIsPaused is static, we can use it in other scripts
     connecting UI buttons to Scripts as well
     */
+    [Header("Pause")]
     public static bool GameIsPaused = false;
+    public GameObject PauseUI;
+    
     public bool MenuUI = false;
 
-    public GameObject PauseMenuUI;
+    /*
+    void Awake()
+    {
+        // making the AudioManager persist through Loading Scenes
+        DontDestroyOnLoad(gameObject);
+    } */
 
     void Start()
     {
         if(!MenuUI)
-            PauseMenuUI.SetActive(false);
+            PauseUI.SetActive(false);
     }
 
     void Update() 
@@ -35,7 +43,7 @@ public class UIManager : MonoBehaviour
     // making it public allows button to use this function
     public void Resume() 
     {
-        PauseMenuUI.SetActive(false);
+        PauseUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
         
@@ -44,7 +52,7 @@ public class UIManager : MonoBehaviour
     }
     void Pause() 
     {
-        PauseMenuUI.SetActive(true);
+        PauseUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
         
@@ -75,7 +83,7 @@ public class UIManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void Restart()
+    public static void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5209901006158599658}
   m_Layer: 0
-  m_Name: PauseGame
+  m_Name: PauseUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -819,7 +819,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62cf8ac06fb6b334898512126dbd26f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseMenuUI: {fileID: 7121960319061816495}
+  PauseUI: {fileID: 7121960319061816495}
+  MenuUI: 0
 --- !u!1 &7288356728431726526
 GameObject:
   m_ObjectHideFlags: 0

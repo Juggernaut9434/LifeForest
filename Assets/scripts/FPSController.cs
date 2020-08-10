@@ -31,10 +31,14 @@ public class FPSController : MonoBehaviour
      public float forwardSpeed, horizontalSpeed, jumpPower, gravity;
      
      [HideInInspector] public float jumpSpeed, verticalRotation;
- 
+
+
      void Update() {
          // While Game is Paused, Don't move POV
          if(UIManager.GameIsPaused) return;
+
+         // If falling off map, restart
+         if( transform.position.y <= -6 ) UIManager.Restart();
 
          float mouseX = Input.GetAxis("Mouse X"), mouseY = Input.GetAxis("Mouse Y");
  
